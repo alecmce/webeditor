@@ -1,6 +1,6 @@
 import { browser, by, element } from 'protractor';
 
-export class CodeplayPage {
+export class WebEditorPage {
   navigateTo() {
     return browser.get('/');
   }

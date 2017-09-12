@@ -1,10 +1,10 @@
-import { CodeplayPage } from './app.po';
+import { WebEditorPage } from './app.po';
 
-describe('codeplay App', () => {
-  let page: CodeplayPage;
+describe('webeditor App', () => {
+  let page: WebEditorPage;
 
   beforeEach(() => {
-    page = new CodeplayPage();
+    page = new WebEditorPage();
   });
 
   it('should display welcome message', () => {
