@@ -15,7 +15,7 @@ import { CodemirrorModule } from 'ng2-codemirror';
     CodemirrorModule,
   ],
   providers: [],
-  bootstrap: [
+  exports: [
     EditorComponent,
   ]
 })
